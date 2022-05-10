@@ -1,0 +1,69 @@
+/* :root{
+    
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+.navBar{
+    /* background: linear-gradient(to right, #dadfc9, #c6da8a, #afc55d, #ccda90, #c3c5b8); */
+    background: rgb(236, 172, 54);
+    height: 7rem;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.links{
+    /* border: 1px solid black; */
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    /* width: 100%; */
+    /* margin-left: 10px; */
+}
+.navLinks{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.navLinks:hover{
+    border-radius: 10px;
+    background-color: #41443249;
+    /* border:  1px solid blue; */
+}
+.profileIcon{
+    display: inline-block;
+    cursor: pointer;
+}
+.profile i:nth-child(1){
+    margin-right: 20px;
+} 
+
+.hideProfileBox{
+    display: none;
+  
+}
+.showProfileBox{
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    width: 10%;
+}
+.profileBoxOption{
+    padding: 10px;
+    cursor: pointer;
+}
+.profileBoxOption:hover{
+    background-color: rgb(236, 236, 84);
+}

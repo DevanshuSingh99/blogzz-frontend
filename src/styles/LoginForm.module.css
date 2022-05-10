@@ -1,0 +1,47 @@
+
+.inputBox {
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: 0;
+    font-size: 1.2rem;
+    color: black;
+    padding: 7px 5px;
+    background: transparent;
+    transition: border-color 0.4s;
+}
+
+.label img {
+    padding: 0 10px;
+    transform: translateY(12px);
+}
+.inputBox::placeholder {
+    color: rgb(133, 133, 133);
+}
+.inputBox:focus {
+    border-bottom: 2px solid rgb(255, 215, 84);
+}
+
+.errMsg {
+    margin-left: 15%;
+    color: rgb(214, 36, 36);
+    display: block;
+    width: 60%;
+}
+.loginErrMsg{
+    margin-left: 5%;
+    color: rgb(214, 36, 36);
+    display: block;
+    width: 100%;
+}
+
+.submitBtn{
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(255, 215, 84);
+}
+.inputField{
+    display: flex;
+}
